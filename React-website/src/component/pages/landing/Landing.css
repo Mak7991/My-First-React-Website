@@ -1,0 +1,778 @@
+.navbar {
+  width: 100%;
+  padding: 29px 0;
+  position: absolute;
+}
+
+.navbar .brand-logo {
+  float: left;
+}
+
+.navbar .brand-logo img {
+  width: 180px;
+  height: 50px
+}
+
+.nav .nav-links {
+  float: right;
+}
+
+.nav .nav-links ul {
+  display: inline;
+  padding: 15px 0;
+}
+
+.nav .nav-links ul li {
+  display: inline;
+  margin: 0 15px;
+  color: white;
+  font-size: 15px;
+  font-family: QuickSand-regular;
+  padding: 15px 0;
+}
+
+.nav .nav-links ul li a {
+  text-decoration: none;
+  color: white
+}
+
+.header-section {
+  background-image: linear-gradient(293deg, #57e1a8 0%, #1F65DB 100%);
+  width: 100%;
+  height: 100vh;
+}
+
+.header-section .container {
+  height: 100%
+}
+
+.header-content {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 100px);
+  justify-content: center;
+  padding: 0 0 0 0;
+}
+
+.header-content p {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: QuickSand-bold;
+  font-weight: 700;
+  padding: 0 230px;
+}
+
+.header-content button {
+  font-family: QuickSand-regular;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 auto;
+  background: transparent;
+  border: 1px solid white;
+  padding: 13px 35px;
+  border-radius: 40px;
+  color: white;
+}
+
+.how-it-works {
+  width: 100%;
+  background-color: white;
+  padding: 50px 0
+}
+
+.how-it-works .section-head {
+  text-align: center
+}
+
+.how-it-works .section-head h1 {
+  color: #666666;
+  font-family: QuickSand-bold;
+  font-size: 40px;
+}
+
+.how-it-works .section-head span {
+  color: #1F65DB;
+}
+
+.how-it-works .video-section {
+  padding: 45px 0
+}
+
+.our-partners {
+  width: 100%;
+  background-color: white;
+  padding: 50px 0
+}
+
+.our-partners .section-head {
+  text-align: center
+}
+
+.our-partners .section-head span {
+  color: #1F65DB;
+}
+
+.our-partners .section-head h1 {
+  color: #666666;
+  font-family: QuickSand-bold;
+  font-size: 40px;
+}
+
+.our-partners .partner-section {
+  padding: 45px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.our-partners .partner-section .card {
+  padding: 25px;
+  border: none;
+}
+
+.our-partners .partner-section .card img {
+  object-fit: contain;
+}
+
+.why-use {
+  width: 100%;
+  background-color: white;
+  padding: 50px 0
+}
+
+.why-use .section-head {
+  text-align: center
+}
+
+.why-use .section-head span {
+  color: #1F65DB;
+}
+
+.why-use .section-head h1 {
+  color: #666666;
+  font-family: QuickSand-bold;
+  font-size: 40px;
+}
+
+.why-use .section-body p {
+  text-align: center;
+  font-family: QuickSand-regular;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.7;
+}
+
+.why-use .section-body {
+  padding: 20px 190px;
+  display: flex;
+}
+
+.why-use .section-footer {
+  padding: 30px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.why-use .section-footer .card {
+  text-align: center;
+  /* padding: 0 15px; */
+}
+
+.why-use .section-footer .card .card-content-head h1 {
+  color: #1f65db;
+  font-size: 17px;
+  font-family: QuickSand-bold;
+}
+
+.why-use .section-footer .card .card-content-body p {
+  font-size: 19px;
+  color: #333333;
+  font-family: QuickSand-regular;
+}
+
+.pricing-section {
+  background-image: linear-gradient(293deg, #57e1a8 0%, #1F65DB 100%);
+  width: 100%;
+  padding: 120px 0;
+}
+
+.pricing-section .pricing-box {
+  display: flex;
+  width: 100%;
+}
+
+.pricing-section .left-section {
+  background-color: white;
+  border-radius: 8px;
+  font-family: QuickSand-regular;
+  /* width: calc(50% - 50px); */
+  /* margin: 10px; */
+  padding: 25px;
+  box-shadow: 0px 0px 15px rgba(31, 101, 219, 0.2);
+}
+
+.pricing-section .right-section {
+  /* width: calc(50% - 90px); */
+  float: left;
+  text-align: center;
+  /* padding: 10px; */
+  margin-left: 90px;
+}
+
+.pricing-section .right-section .what-we-provide {
+  color: white;
+  line-height: 1.7;
+  padding: 20px 0;
+}
+
+.what-we-provide h1 {
+  font-family: QuickSand-bold;
+  font-size: 40px
+}
+
+.what-we-provide p {
+  font-family: QuickSand-regular;
+  font-size: 16px;
+}
+
+.pricing-section .right-section .what-we-provide button {
+  border-radius: 24px;
+  background-color: #1f65db;
+  border: none;
+  padding: 15px 40px;
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: QuickSand-bold;
+}
+
+.pricing-section .left-section h1 {
+  color: #666666;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.pricing-section .left-section p {
+  color: #333333;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  margin: 0 0 16px 0;
+}
+
+.pricing-section .left-section .list-point p {
+  color: #333333;
+  font-size: 15px;
+  text-align: center;
+}
+
+.pricing-section .left-section .list-point ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+  line-height: 1.7;
+}
+
+.day-process-section {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.day-process-section .day-process-detail {
+  text-align: center;
+}
+
+.day-process-section .day-process-detail h1 {
+  font-size: 40px;
+  font-family: QuickSand-bold;
+  color: #666666;
+}
+
+.day-process-section .day-process-detail span {
+  color: #1F65DB;
+}
+
+.day-process-section .day-process-detail p {
+  font-size: 16px;
+  font-family: QuickSand-regular;
+  color: #333333;
+}
+
+.day-process-info {
+  margin: 15px 0;
+}
+
+.day-process-info .btn {
+  display: flex;
+  justify-content: center;
+}
+
+.day-process-info .btn button {
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  background-color: #2065db;
+  color: white;
+  font-family: QuickSand-bold;
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+.section-footer .card {
+  border: none
+}
+
+.day-process-info .card .btn {
+  text-align: center;
+}
+
+.day-process-info .card .btn button {
+  background-color: #1f65db;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-family: QuickSand-bold;
+  padding: 15px 40px;
+  border-radius: 45px;
+}
+
+.provide-section {
+  width: 100%;
+  background-color: white;
+  float: left;
+}
+
+/* .provide-cards {
+  width: 100%
+} */
+
+.provide-cards .card {
+  /* width: calc(50% - 64px); */
+  float: left;
+  /* padding: 20px 10px; */
+  /* box-shadow: 0px 0px 15px rgba(31,101,219,0.2); */
+  border-radius: 24px;
+  border: 2px solid #1f65db;
+  margin: 50px 20px;
+  text-align: center
+}
+
+.provide-cards .card img {
+  text-align: center;
+  padding: 20px 0;
+  object-fit: contain;
+}
+
+.provide-cards .card h3 {
+  text-align: center;
+  color: #1f65db;
+  font-size: 30px;
+  font-family: QuickSand-regular;
+}
+
+.provide-cards .card ul {
+  padding-left: 50px;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.provide-cards .card ul li {
+  font-size: 15px;
+  color: #333333;
+  font-family: QuickSand-regular;
+  margin-bottom: 10px;
+}
+
+.provide-cards .card h1 {
+  text-align: center;
+  font-family: QuickSand-bold;
+  font-size: 30px;
+  color: #666666;
+  padding: 20px 0;
+}
+
+.provide-cards .card:last-child {
+  padding-bottom: 118px;
+}
+
+.provide-cards .card button {
+  color: white;
+  background-color: #2065db;
+  border: none;
+  padding: 13px 25px;
+  font-size: 16px;
+  font-family: QuickSand-bold;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.group-section {
+  width: 100%;
+  float: left;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.group-content h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #666666;
+  font-family: QuickSand-bold;
+}
+
+.group-content h1 span {
+  color: #2065db
+}
+
+.group-content p {
+  font-family: QuickSand-regular;
+  color: #666666
+}
+
+.group-list {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+  color: #333333;
+}
+
+.group-list ul {
+  list-style: none;
+}
+
+.group-list ul li {
+  padding: 5px 0;
+}
+
+.group-list ul li p .li-title {
+  font-weight: 600;
+  padding: 2px 0
+}
+
+.group-list button {
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  background-color: #2065db;
+  color: white;
+  font-family: QuickSand-bold;
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+.faq-section {
+  width: 100%;
+  float: left;
+}
+
+.faq-section .accordion {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.faq-list h1 {
+  text-align: center;
+  font-family: 'QuickSand-bold';
+  padding: 20px 0;
+  width: 100%;
+}
+.faq-list .faq-title h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.faq-list h1 span {
+  color: #2065db
+}
+
+.faq-section .body {
+  height: 180px
+}
+
+.faq-card {
+  padding: 10px 0;
+}
+
+.faq-card .card {
+  border: none;
+  box-shadow: 0px 0px 12px 0px rgba(66, 66, 66, 0.12);
+}
+
+.faq-card .card-header {
+  background: none;
+  color: #3578fe;
+  padding: 18px;
+  font-family: QuickSand-bold;
+  font-size: 14px;
+}
+
+.testimonial-section {
+  width: 100%;
+  float: left;
+  padding: 70px 0;
+  background-image: url(../../../assets/images/testimonial-bg.png);
+  height: 100%;
+}
+
+.testimonial-title {
+  text-align: center
+}
+
+.testimonial-title h1 {
+  font-family: QuickSand-bold;
+  font-size: 40px;
+}
+
+.slider-section {
+  padding: 50px 0;
+}
+
+.contact-section {
+  width: 100%;
+  background-image: linear-gradient(293deg, #57e1a8 0%, #1F65DB 100%);
+  float: left;
+  padding: 40px 0;
+  /* background: url(../../../assets/images/carb.png) no-repeat;
+  position: absolute; */
+}
+
+.contact-content {
+text-align: center;
+}
+
+/* 
+.contact-section .contact-content {
+  text-align: center;
+} */
+
+.contact-section .contact-content h1 {
+  padding: 20px 0;
+  color: white;
+}
+
+.contact-section .contact-content button {
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  background-color: #2065db;
+  color: white;
+  font-family: QuickSand-bold;
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+.question-section {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+}
+
+.question-section .question-content {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.question-content h1 {
+  font-size: 40px;
+  font-family: QuickSand-bold;
+  color: #666666;
+}
+
+.question-content p {
+  font-family: QuickSand-regular;
+  font-size: 16px;
+}
+
+.question-content button {
+  margin: 20px 0;
+  font-size: 17px;
+  border: none;
+  background-color: #2065db;
+  color: white;
+  font-family: QuickSand-bold;
+  padding: 13px 35px;
+  border-radius: 30px;
+}
+
+@media (min-width: 320px) and ( max-width: 767px) {
+  .navbar-light .navbar-brand {
+    margin-left: 15px;
+  }
+  .navbar-light .navbar-toggler {
+    margin-right: 15px;
+  }
+  .header-content p {
+    padding: 0;
+    font-size: 22.4px;
+  }
+  .how-it-works .section-head h1 {
+    font-size: 23.8px;
+  }
+  .video-section iframe {
+    height: 240px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  .how-it-works {
+    padding: 40px 0;
+  }
+  .how-it-works .video-section {
+    padding: 25px 0;
+  }
+  .why-use {
+    padding: 40px 0;
+  }
+  .why-use .section-body {
+    padding: 20px 0;
+  }
+  .why-use .section-head h1 {
+    font-size: 23.8px;
+  }
+  .why-use .section-body p {
+    font-size: 14px;
+  }
+  .why-use .section-footer .repeated-section {
+    text-align: center;
+    width: 100%;
+    padding: 10px 15px;
+  }
+  .why-use .repeated-section h1 {
+    font-size: 16px;
+  }
+  .why-use .repeated-section p {
+    font-size: 13px;
+  }
+  .our-partners {
+    padding: 40px 0;
+  }
+  .our-partners .partner-section .card {
+    padding: 5px;
+  }
+  .our-partners .section-head h1 {
+    font-size: 23.8px;
+  }
+  .day-process-section .day-process-content .section-footer .repeated-section {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .day-process-content .repeated-section p {
+    font-size: 13px;
+  }
+  .day-process-content .repeated-section h1 {
+    font-size: 16px;
+  }
+  .group-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .group-content h1 {
+    font-size: 23.8px;
+  }
+  .group-content p {
+    font-size: 16px;
+  }
+  .faq-section .accordion {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .faq-list h1 {
+    font-size: 23.8px;
+    width: 100%;
+  }
+  .contact-section .contact-content h1 {
+    padding: 20px 0;
+    color: white;
+    font-size: 23.8px;
+    font-family: QuickSand-bold;
+    text-align: center;
+  }
+  .contact-section .contact-content button {
+    font-family: QuickSand-regular;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    background: transparent;
+    border: 1px solid white;
+    padding: 13px 35px;
+    border-radius: 40px;
+    color: white;
+  }
+  .question-section {
+    padding: 40px 0;
+  }
+  .question-content h1 {
+    font-size: 23.8px;
+  }
+  .question-content p {
+    font-size: 16px;
+  }
+  .question-content button {
+    margin: 20px 0;
+    font-size: 14px;
+    border: none;
+    background-color: #2065db;
+    color: white;
+    font-family: QuickSand-bold;
+    padding: 10px 30px;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 768px) and ( max-width: 991px) {
+  .header-content p {
+    padding: 0;
+  }
+  .video-section iframe {
+    height: 380px;
+  }
+  .why-use-section .section-body {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 992px) and ( max-width: 1200px) {}
+
+.repeated-section {
+  text-align: center;
+}
+
+.why-use .repeated-section {
+  text-align: center;
+  width: 25%;
+  padding: 0 15px;
+}
+
+.day-process-section .repeated-section {
+  text-align: center;
+  width: 16.666%;
+  padding: 0 15px;
+}
+
+.repeated-section img {
+  object-fit: contain;
+}
+
+.repeated-section h1 {
+  font-size: 18px;
+  color: #1f65db;
+  font-family: QuickSand-bold;
+  margin: 15px 0;
+}
+
+.repeated-section p {
+  font-size: 15px;
+  font-family: QuickSand-regular;
+  color: #333333;
+  margin: 0;
+}

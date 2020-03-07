@@ -1,0 +1,56 @@
+.slider-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(175, 64, 0, 0.918);
+    background-color: white;
+}
+.slider-card .testimonial-img {
+    height: 200px;
+}
+.slider-card img {
+    object-fit: contain;
+    padding: 10px 0;
+}
+.slider-card p {
+    font-family: QuickSand-bold;
+    color:black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.slider-card h1 {
+    font-family: QuickSand-bold;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.products{
+    background-color: #ffba66;
+    height: 620px;   
+}
+.sliderbtn{
+    height: 350px;
+    margin: 35px; 
+}
+.product{
+    padding-top: 26px;
+    display: block;
+    width: 100%;
+  
+}
+.product-title {
+      margin: 0 auto;
+      padding-bottom: 20px;
+      text-align: center;
+}
+.discribe{
+    margin: 0 auto;
+    padding-top: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
